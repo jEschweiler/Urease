@@ -1,3 +1,6 @@
+## Calculates projected area for each model within a numpy array with given radii file. 
+## In this implementation, errors relative to experimental or theoretical CCS values are calculated and used as a filter
+
 import numpy as np
 from ctypes import cdll, c_int, c_float, byref 
 import os
