@@ -1,3 +1,5 @@
+## Filter models in a numpy array by ensuring connectivity between spheres and favorable contact distances between connected spheres
+
 import numpy as np
 from ctypes import cdll, c_int, c_float, byref 
 import os
